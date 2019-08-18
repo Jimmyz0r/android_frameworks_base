@@ -80,7 +80,7 @@
     <color name="gradient_end_light">#ffffffff</color>
     <color name="gradient_end_dark">#ffffffff</color>
 
-<!-- Comment stupid blue gradient everywhere and set it white above.
+<!-- Comment stupid blue gradient everywhere
     <color name="gradient_end_light">#ff0073e8</color>
     <color name="gradient_end_dark">#ff0073e8</color>
 -->
