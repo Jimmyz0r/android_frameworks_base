@@ -77,12 +77,12 @@ public class TypographicClock extends TextView implements
 
         fadeIn = new AlphaAnimation(0, 1);
         fadeIn.setInterpolator(new DecelerateInterpolator());
-        fadeIn.setDuration(300);
+        fadeIn.setDuration(400);
 
         fadeOut = new AlphaAnimation(1, 0);
         fadeOut.setInterpolator(new AccelerateInterpolator());
-        fadeOut.setStartOffset(300);
-        fadeOut.setDuration(300);
+        fadeOut.setStartOffset(500);
+        fadeOut.setDuration(500);
     }
 
     public void onTimeChanged() {
