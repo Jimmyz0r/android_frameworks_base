@@ -123,7 +123,11 @@
 
     <!-- Tiles native to System UI. Order should match "quick_settings_tiles_default" -->
     <string name="quick_settings_tiles_stock" translatable="false">
+<<<<<<< HEAD
         wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,inversion,livedisplay,reading_mode,saver,work,cast,lte,sound,screenshot,onthego,screenrecord,theme,gaming,heads_up,expanded_desktop,caffeine,soundsearch,smartpixels,aod,ambient_display,usb_tether,sync
+=======
+        wifi,cell,battery,dnd,flashlight,rotation,bt,airplane,nfc,location,hotspot,inversion,livedisplay,reading_mode,saver,work,cast,night,lte,sound,screenshot,onthego,screenrecord,theme,gaming,heads_up,expanded_desktop,caffeine,soundsearch,smartpixels,aod,ambient_display
+>>>>>>> parent of 1cecb63... Remove Night light QS Tile
     </string>
 
     <!-- The tiles to display in QuickSettings -->
