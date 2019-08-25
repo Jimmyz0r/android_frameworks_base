@@ -43,7 +43,6 @@ import com.android.systemui.qs.tiles.LiveDisplayTile;
 import com.android.systemui.qs.tiles.LocationTile;
 import com.android.systemui.qs.tiles.LteTile;
 import com.android.systemui.qs.tiles.NfcTile;
-import com.android.systemui.qs.tiles.NightDisplayTile;
 import com.android.systemui.qs.tiles.OnTheGoTile;
 import com.android.systemui.qs.tiles.ReadingModeTile;
 import com.android.systemui.qs.tiles.RotationLockTile;
@@ -53,6 +52,8 @@ import com.android.systemui.qs.tiles.SoundSearchTile;
 import com.android.systemui.qs.tiles.ScreenshotTile;
 import com.android.systemui.qs.tiles.SmartPixelsTile;
 import com.android.systemui.qs.tiles.ThemeTile;
+import com.android.systemui.qs.tiles.UsbTetherTile;
+import com.android.systemui.qs.tiles.SyncTile;
 import com.android.systemui.qs.tiles.UserTile;
 import com.android.systemui.qs.tiles.WifiTile;
 import com.android.systemui.qs.tiles.WorkModeTile;
@@ -111,8 +112,6 @@ public class QSFactoryImpl implements QSFactory {
                 return new BatterySaverTile(mHost);
             case "saver":
                 return new DataSaverTile(mHost);
-            case "night":
-                return new NightDisplayTile(mHost);
             case "nfc":
                 return new NfcTile(mHost);
             case "lte":
@@ -147,6 +146,10 @@ public class QSFactoryImpl implements QSFactory {
                 return new AODTile(mHost);
             case "ambient_display":
                 return new AmbientDisplayTile(mHost);
+            case "usb_tether":
+                return new UsbTetherTile(mHost);
+            case "sync":
+                return new SyncTile(mHost);
         }
 
         // Intent tiles.
